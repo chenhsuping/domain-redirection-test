@@ -1,0 +1,224 @@
+html{ font-family: Verdana,"Microsoft JhengHei", Arial, Helvetica, sans-serif; -webkit-text-size-adjust:none;}
+body {
+	margin:0;
+	padding:0;	background-color:#ff5f25;
+}
+img { border:none;}
+.all_210412{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	background-color:#ff5f25;
+	background-image:url(../images/PC_BG_210412.jpg);  background-repeat:no-repeat;background-position:center top;
+}
+.rwd_box_all { width:1220px;  margin:0 auto; }
+
+/* 版頭 */
+.rwd_title_bg { width:1220px; height:826px; display:block; margin:0 auto; position:relative;  }
+.title01 { width:1220px; height:615px; display:block; margin:0 auto; background-image:url(../images/PC_main_210712.png);  background-repeat:no-repeat; 	animation:light 2s ease both infinite;
+z-index:1; 
+}
+@keyframes light {
+0% { filter: brightness(100%); }
+5% { filter: brightness(100%); }
+10% { filter: brightness(150%); }
+
+11% { filter: brightness(100%); }
+
+18% { filter: brightness(130%); }
+
+20% { filter: brightness(100%); }
+
+}
+.title02 { width:1220px; height:211px; display:block; margin:0 auto; background-image:url(../images/PC_timebg_210712.png);  background-repeat:no-repeat; }
+	
+
+
+
+.rwd_list_title3 { width:1220px;height:138px; margin:0 auto; background-image:url(../images/bar03.png); t font-size:0px; margin-top:50px;}
+
+.time_bg {	width:800px; height:60px; position:absolute; left:30%;	top:93%; font-size:30px; color:#000;}
+
+.time_bg .time{
+	width:400px;
+	height:60px;
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.time_bg .time .day{display:inline-block;	
+background-color:#FFF;
+    border-radius: 4px;
+    padding: 1px 2px;
+
+}
+.time_bg .time .hr{display:inline-block;	
+    border-radius: 4px;
+    padding: 1px 2px;
+
+}
+.time_bg .time .minute{display:inline-block;	
+    border-radius: 4px;
+    padding: 1px 2px;
+
+
+}
+.time_bg .time .Second{
+	display:inline-block;	color:#e83820;
+    border-radius: 4px; 
+    padding: 1px 2px;
+
+		
+}
+input {
+	background-color:transparent;  
+   	border: 1px solid #3e4049;	font-size:30px;
+    border-radius: 4px;
+    padding: 1px 2px;
+	text-align:center;
+	width:50px;
+	background-color:#FFF;
+    }
+
+
+
+
+
+
+/* Media Query ，也就是當寬度 < 736 px 時將載入下面這段 CSS */
+@media (min-width: 737px) and (max-width: 1023px)  {
+
+.all_210412{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	background-color:#ff5f25;
+	background-image:url(../images/PC_BG_210412.jpg);  background-repeat:no-repeat;background-position:center top;
+}
+.rwd_box_all { width:1220px;  margin:0 auto; }
+
+/* 版頭 */
+.rwd_title_bg { width:1220px; height:826px; display:block; margin:0 auto; position:relative;  }
+.title01 { width:1220px; height:615px; display:block; margin:0 auto; background-image:url(../images/PC_main_210712.png);  background-repeat:no-repeat; 
+animation:none;
+z-index:1;  }
+.title02 { width:1220px; height:211px; display:block; margin:0 auto; background-image:url(../images/PC_timebg_210712.png);  background-repeat:no-repeat;  }
+.rwd_list_title3 { width:1220px;height:138px; margin:0 auto; background-image:url(../images/bar03.png); t font-size:0px; margin-top:50px;}
+
+.time_bg {	width:800px; height:60px; position:absolute; left:30%;	top:93%; font-size:30px; color:#000;}
+
+.time_bg .time{
+	width:400px;
+	height:60px;
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.time_bg .time .day{display:inline-block;	
+background-color:#FFF;
+    border-radius: 4px;
+    padding: 1px 2px;
+
+}
+.time_bg .time .hr{display:inline-block;	
+    border-radius: 4px;
+    padding: 1px 2px;
+
+}
+.time_bg .time .minute{display:inline-block;	
+    border-radius: 4px;
+    padding: 1px 2px;
+
+
+}
+.time_bg .time .Second{
+	display:inline-block;	color:#e83820;
+    border-radius: 4px; 
+    padding: 1px 2px;
+
+		
+}
+input {
+	background-color:transparent;  
+   	border: 1px solid #3e4049;	font-size:30px;
+    border-radius: 4px;
+    padding: 1px 2px;
+	text-align:center;
+	width:50px;
+	background-color:#FFF;
+    }
+
+ }
+
+
+  
+/* Media Query ，也就是當寬度 < 736 px 時將載入下面這段 CSS */
+ @media only screen and (max-width: 736px) {
+.all_210412{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	background-color:#ff5f25;
+	background-image:none;  background-repeat:no-repeat;background-position:center top;
+}
+
+.rwd_box_all { width:100%; padding:50px 0 0 0; }
+
+
+.rwd_title_bg { width:100%; height:auto; display:block; margin:0 auto; position:relative;  }
+.title01 {width:100%; height:auto; display:block; margin:0 auto; padding-bottom:63.86%; background-image:url(../images/M210712_01.png);background-size:cover; background-position:center top;   background-repeat:no-repeat; animation:none;
+z-index:1;   }
+.title02 { width:100%; height:auto; display:block; margin:0 auto; padding-bottom:27.31%; background-image:url(../images/M210712_02.png); background-size:cover; background-position:center top;   background-repeat:no-repeat;   }
+
+
+
+.rwd_list_title3 {width:100%; height:auto; display:block; margin:0 auto;
+margin-top:20px;
+ padding-bottom:22.96%; background-image:url(../images/M210712_04.png);  background-size:cover; background-position:center top;   background-repeat:no-repeat;  }
+
+
+.time_bg {	width:90%; height:auto; position:absolute; left:15%;top:90%;font-size:15px;  }
+
+.time_bg .time{
+	position:relative;
+	width:100%;
+	height:60px;
+	font-size:15px;
+	color:#000;
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.time_bg .time .hr{display:inline-block;	border: 1px solid #3e4049;
+    border-radius: 4px;
+    padding: 1px 2px;
+
+}
+.time_bg .time .minute{display:inline-block;	border: 1px solid #3e4049;
+    border-radius: 4px;
+    padding: 1px 2px;
+
+
+}
+.time_bg .time .Second{display:inline-block;	border: 1px solid #3e4049; color:#e83820;
+    border-radius: 4px;
+    padding: 1px 2px;
+
+		
+}
+input {
+	background-color:transparent;  
+	width:25px;
+   	border: 1px solid #3e4049;	font-size:19px;
+    border-radius: 4px;
+    padding: 1px 2px;
+	text-align:center;
+	background-color:#FFF;
+    }
+	
+
+
+/* 版頭-按鈕 */
+.rwd_title_button { width:100%; height:auto; position:static;}
+
+.rwd_title_button a { width:100%; height:auto; 	right:0px;
+	bottom:0px;  display:block; background-position:center top; background-image:url(http://www.treemall.com.tw/event/RWD/180329point/images/button_200928m.png); background-repeat:no-repeat; background-size:cover;  padding-bottom:16.30%; display:none;}
+
+ }

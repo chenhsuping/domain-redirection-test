@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+<title>限時搶購-點數梭哈 0元帶回家</title>
+  <meta charset="big5" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+
+<meta property="og:type"          content="https://www.treemall.com.tw/event/RWD/210412point/index_210412tm.shtml" />
+<meta property="og:title"         content="限時搶購-點數梭哈 0元帶回家｜點數好好用" />
+<meta property="og:description"   content="限時搶購" />
+<meta property="og:image"         content="https://www.treemall.com.tw/event/RWD/210412point/banner/fb560.jpg" />
+  <meta name="keywords" content="泰贈點、紅利點數、限時搶購、國泰優惠、0元、國泰世華銀行" /> 
+  <!--追蹤碼↓--> 
+  <script src="https://www.treemall.com.tw/120925V2/js/neo.js" type="text/javascript"></script>
+  <!-- Kerebro tracking code -->
+  <script src="//kerebro.com/tracker/newtrack.js"></script>
+ 
+<script src="/event/161104vip_event/js/jquery-1.8.1.min.js" type="text/javascript"></script>
+
+
+  <script type="text/javascript" src="https://www.treemall.com.tw/event/together/v2/js/jquery.timers-1.1.2.js"></script> 
+  
+<script language="JavaScript">
+<!-- hide script from old browser
+var DifferenceHour = -1
+var DifferenceMinute = -1
+var DifferenceSecond = -1
+var Tday = new Date("July 26, 2021 10:00:00") 
+var daysms = 24 * 60 * 60 * 1000
+var hoursms = 60 * 60 * 1000
+var Secondms = 60 * 1000
+var microsecond = 1000
+
+function clock()
+{
+var time = new Date()
+var hour = time.getHours()
+var minute = time.getMinutes()
+var second = time.getSeconds()
+var timevalue = ""+((hour > 12) ? hour-12:hour)
+timevalue +=((minute < 10) ? ":0":":")+minute
+timevalue +=((second < 10) ? ":0":":")+second
+timevalue +=((hour >12 ) ? " PM":" AM")
+// document.formnow.now.value = timevalue
+var convertHour = DifferenceHour
+var convertMinute = DifferenceMinute
+var convertSecond = DifferenceSecond
+var Diffms = Tday.getTime() - time.getTime()
+DifferenceHour = Math.floor(Diffms / daysms)
+Diffms -= DifferenceHour * daysms
+DifferenceMinute = Math.floor(Diffms / hoursms)
+Diffms -= DifferenceMinute * hoursms
+DifferenceSecond = Math.floor(Diffms / Secondms)
+Diffms -= DifferenceSecond * Secondms
+var dSecs = Math.floor(Diffms / microsecond)
+if(convertHour != DifferenceHour) document.formnow.dd.value=DifferenceHour
+if(convertMinute != DifferenceMinute) document.formnow.hh.value=DifferenceMinute
+if(convertSecond != DifferenceSecond) document.formnow.mm.value=DifferenceSecond
+document.formnow.ss.value=dSecs
+// document.formnow.Tnow.value= DifferenceHour DifferenceMinute + DifferenceSecond + dSecs
+setTimeout("clock()",1000)
+} 
+// end hiding -->
+
+</script>
+
+ 
+
+           
+  <!--追蹤碼↑--> 
+  <link href="https://www.treemall.com.tw/event/RWD/210412point/css/rwd_all_210712.css" rel="stylesheet" type="text/css" /> 
+   <link href="https://www.treemall.com.tw/event/RWD/210412point/css/RWD_footer.css" rel="stylesheet" type="text/css" /> 
+  
+ </head> 
+ 
+ 
+ <body onload="clock();return true"> 
+
+ <div class="all_210412"> 
+  <div class="rwd_box_all"> 
+  
+   <div class="treemall_LOGO">
+    <a href="http://www.treemall.com.tw/?medium=AD_LOCATION&amp;campaign=EV-298-0"><img src="http://www.treemall.com.tw/event/RWD/160513point/images/treemall_LOGO.png" /></a>
+   </div> 
+   <div class="home_ICON">
+    <a href="http://www.treemall.com.tw/?medium=AD_LOCATION&amp;campaign=EV-298-1"><img src="http://www.treemall.com.tw/event/RWD/160513point/images/home_ICON.png" /></a>
+   </div> 
+   <div class="fb_ICON">
+    <a href="javascript:void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));"><img src="http://www.treemall.com.tw/event/RWD/160513point/images/FB_ICON.png" /></a>
+   </div>
+  
+   <div class="line_ICON">
+    <a href="http://line.naver.jp/R/msg/text/TreeMall限時搶購https://www.treemall.com.tw/event/RWD/210412point/index_2103412tm.shtml"><img src="http://www.treemall.com.tw/event/RWD/160513point/images/LINE_ICON.png" /></a>
+   </div>
+   
+   <!--版頭--> 
+   <div class="rwd_title_bg"> 
+   <div class="title01"> </div>
+      <div class="title02">      
+          
+        <!--時間表------------> 
+        <div class="time_bg">
+      
+    <form name="formnow">
+倒數
+<input type="text" name="dd"> 天
+<input type="text" name="hh"> 時 
+<input type="text" name="mm"> 分 
+<input type="text" name="ss" style="color:#F00;"> 秒
+     </div>
+            
+ <!--時間表---END--------> 
+ 
+    </div> 
+        </div> 
+   <!--版頭-END--> 
+   
+  
+   <!--LIST--> 
+
+   <!--#include virtual="../../../edm//20210707/main_1.html"--> 
+   <!--LIST-END--> 
+   <div class="rwd_list_title3">  </div>  
+
+   <!--LIST2--> 
+
+ 
+   <!--#include virtual="../../../edm/20210525/main_1.html"--> 
+   <!--#include virtual="../../../edm/20210408/main_7.html"-->
+   <!--#include virtual="../../../edm/20210408/main_5.html"-->
+   <!--#include virtual="../../../edm/20210408/main_1.html"--> 
+   <!--#include virtual="../../../edm/20210408/main_3.html"-->
+   <!--#include virtual="../../../edm/20210408/main_4.html"-->
+   <!--#include virtual="../../../edm/20210408/main_2.html"-->
+   <!--#include virtual="../../../edm/20210408/main_6.html"-->  
+   <!--#include virtual="../../../edm/20210408/main_8.html"--> 
+   <!--#include virtual="../../../edm/20210525/main_2.html"--> 
+ 
+   
+   <!--LIST-END--> 
+   
+  </div>  
+   <!--LIST-END--> 
+  </div> 
+  
+     </div>  
+     
+     <div class="RWD_footer">
+<ul>
+<li>TreeMall由神坊資訊股份有限公司經營管理 非經本公司書面同意,請勿任意轉載網站內容。</li>
+
+</ul>
+</div>
+
+
+   <!--回頂端TOP-->
+  <script type="text/javascript">	
+    $(document).ready(function(){
+        $("#gotop_sidebar").hide()//隱藏按鈕
+        $(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()>1){//當windos的scrolltop大於1時，淡出反之淡入
+                    $("#gotop_sidebar").fadeIn();
+                } else {
+                    $("#gotop_sidebar").fadeOut();
+                }
+            });
+        });
+     
+
+        //按鈕點擊事件
+        $("#gotop_sidebar a").click(function(){
+            $("html,body").animate({scrollTop:0},500);//按鈕點擊以800速度回頂端
+            return false;
+        });
+    }); 
+  </script>
+  
+     
+     <div id="GoTOP">
+  <!------------GOTOP------------>
+    <div id="gotop_sidebar">
+    <div id="gotop_box">
+    <div class="gotop_main"> 
+    <a id="GoTOP">TOP</a>
+    </div>
+    </div>
+    </div>
+  <!------------GOTOP-END------------>
+  </div>
+
+
+
+  <!--版權宣告-END-->   </body>
+</html>
