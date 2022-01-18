@@ -1,0 +1,532 @@
+html,body { margin:0; padding:0; font-family: Verdana,"Microsoft JhengHei", Arial, Helvetica, sans-serif;}
+img { border:none;
+display:block;
+
+}
+
+/*天*/
+.rwd_header { width:1220px; margin:0 auto; position:absolute; top:0; left:50%; margin-left:-610px;}
+.rwd_header span { display:block; width:50%; float:left; margin-top:14px;} 
+.rwd_header span a.treemall_logo { display:block; margin-left:20px; width:345px; height:50px; background-image:url(../images/treemall_LOGO_a.png); background-size:cover; background-position:center; float:left;}
+.rwd_header span a.menu_ICON {display:none;}
+.rwd_header span a.treemall_logo:hover {filter:alpha(opacity=70); opacity: 0.7;}
+
+.rwd_header span a.treemall_fb { display:block; width:50px; height:50px; background-image:url(../images/FB_ICON.png); background-size:cover; background-position:center; float:right;}
+.rwd_header span a.treemall_fb:hover {filter:alpha(opacity=70); opacity: 0.7;}
+
+.rwd_header span a.treemall_line { display:none; width:50px; height:50px; background-image:url(../images/LINE_ICON.png); background-size:cover; background-position:center; float:right;}
+.rwd_header span a.treemall_line:hover {filter:alpha(opacity=70); opacity: 0.7;}
+
+.rwd_header span a.treemall_home { display:block; width:89px; height:50px; background-image:url(../images/home_ICON.png); background-size:cover; background-position:center; float:right;}
+.rwd_header span a.treemall_home:hover {filter:alpha(opacity=70); opacity: 0.7;}
+
+/*版頭*/
+.main_ALL {
+	width:100%;
+	clear:both;
+	position:relative;
+	background-image:url(../images/bgall_191223.jpg);
+	background-position:center 1075px;
+	background-repeat:repeat-y;
+	background-color:#1c63c8;  z-index:1;
+}
+
+#main_top{
+	width:100%;
+	background-image:url(../images/bgtop_191223.jpg); 
+	background-position:center top; background-repeat:no-repeat; clear:both;
+	height:1075px; z-index:2;}
+
+	
+.top1{ width:1220px; height:588px; margin:0 auto; clear:both; position:relative;}
+.snow-container{position: fixed; top: 0; left: 0; width: 100%; height: 1000px; pointer-events: none; z-index:3;}
+.light{
+	width:1220px;
+	height:414px;
+	position:absolute;
+	left: 375px;
+	top: -20px;
+	-webkit-animation:light 2s ease both infinite;
+	animation:light 2s ease both infinite;}
+
+.w1{
+	width:452px;
+	height:414px;
+	margin:0 auto;
+	background-image:url(../images/w1_191223.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	display:block;
+	clear:both;
+	position:absolute;
+	left: 375px;
+	top: -20px;
+	animation: w1Updown 1s infinite alternate;
+	-webkit-animation: w1Updown 1s infinite alternate;z-index:4;
+}
+.prod1{
+	width:346px;
+	height:376px;
+	margin:0 auto;
+	background-position:center top;
+	background-repeat:no-repeat;
+	display:block;
+	clear:both;
+	position:absolute;
+	left: 12px;
+	bottom: 105px; z-index:5;
+}
+.prod1 a{
+	width:346px;
+	height:376px;
+	background-image:url(../images/prod_1.png);
+	margin:0 auto;
+	display:block;
+	clear:both;
+}
+.prod1 a:hover {    transform: translate(0px,-10px);}
+.prod2{
+	width:271px;
+	height:345px;
+	margin:0 auto;
+	background-position:center top;
+	background-repeat:no-repeat;
+	display:block;
+	clear:both;
+	position:absolute;
+	right: 60px;
+	bottom: 170px;z-index:6;
+}
+.prod2 a{
+	width:271px;
+	height:345px;
+	background-image:url(../images/prod_2.png);
+	margin:0 auto;
+	display:block;
+	clear:both;
+}
+.prod2 a:hover {    transform: translate(0px,-10px);}
+
+.slideRight{
+	animation-name: slideRight;
+	-webkit-animation-name: slideRight;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+  @keyframes w1Updown {
+            from {
+                margin-top: 30px;
+            }
+            to {
+                margin-top: 50px;
+            }
+        }     
+ @-webkit-keyframes w1Updown {
+            from {
+                margin-top: 30px;
+            }
+            to {
+                margin-top: 50px;
+            }
+        }  
+
+@keyframes light {
+0% { filter: brightness(100%); }
+5% { filter: brightness(100%); }
+10% { filter: brightness(150%); }
+
+11% { filter: brightness(100%); }
+
+18% { filter: brightness(130%); }
+
+20% { filter: brightness(100%); }
+
+}
+/*行銷*/ 
+.gift_inf { width:100%; height:220px; z-index:8; position: relative; }
+.gift_inf ul{width:1220px; height:220px; margin:0 auto;	list-style-type: none;}
+.gift_inf ul li{
+	float:left;
+	margin-top:0px;
+	margin-left:12px;
+	}
+.gift_inf ul li a{
+	display:block;
+	}
+
+.gift_inf ul li:nth-child(1) {
+	width:1220px;
+	height:202px;
+	background-image:url(../images/gift_1.png);
+ }
+
+/*選單*/ 
+.menu_inf { width:100%; height:240px; z-index:7; }
+.menu_inf ul{width:1220px; height:240px; margin:0 auto;	list-style-type: none;}
+.menu_inf ul li{
+	float:left;
+	margin-top:20px;
+	margin-left:60px;
+	margin-right:30px;
+	}
+.menu_inf ul li a{
+	display:block;
+	}
+.menu_inf ul li:nth-child(1) a {
+	width:215px;
+	height:240px;
+	background-image:url(../images/menu_1.png);
+ }
+.menu_inf ul li:nth-child(1) a:hover{ 	transform: translate(0px,-10px);}
+.menu_inf ul li:nth-child(2) a {
+	width:215px;
+	height:240px;
+	background-image:url(../images/menu_2.png);
+ }
+.menu_inf ul li:nth-child(2) a:hover { 	transform: translate(0px,-10px);}		
+.menu_inf ul li:nth-child(3) a {
+	width:215px;
+	height:240px;
+	background-image:url(../images/menu_3.png);
+ }
+.menu_inf ul li:nth-child(3) a:hover { 	transform: translate(0px,-10px);}
+.menu_inf ul li:nth-child(4) a {
+	width:215px;
+	height:240px;
+	background-image:url(../images/menu_4.png);
+ }
+.menu_inf ul li:nth-child(4) a:hover { 	transform: translate(0px,-10px);}
+
+/*3banner*/ 
+.banner { width:100%; height:165px; }
+.banner ul{width:1220px; height:165px; margin:0 auto;	list-style-type: none;}
+.banner ul li{
+	float:left;
+	}
+.banner ul li a{
+	display:block;
+	}
+.banner ul li:nth-child(1) a {
+	width:400px;
+	height:165px;
+	background-image:url(../images/fb_banner.png);
+	margin-right:5px;
+ }
+.banner ul li:nth-child(1) a:hover { 		transform: scale(0.93,0.93);}
+.banner ul li:nth-child(2) a {
+	width:400px;
+	height:165px;
+	background-image:url(../images/line_banner.png);
+		margin-right:5px;
+ }
+.banner ul li:nth-child(2) a:hover { 		transform: scale(0.93,0.93);}
+		
+.banner ul li:nth-child(3) a {
+	width:400px;
+	height:165px;
+	background-image:url(../images/app_banner.png);
+ }
+.banner ul li:nth-child(3) a:hover { 		transform: scale(0.93,0.93);}
+
+
+
+/*注意事項*/
+.ps{ width:1200px; height:auto;
+margin:0 auto;
+padding:10px;
+font-size:15px;
+line-height:25px;
+color:#fff;
+}
+.ps span{
+	font-size:25px;
+	font-weight:bold;}
+.ps ul{
+width:1200px;
+margin:0 auto;
+font-size:20px;
+	list-style-type: disc;
+	padding-left:10px;
+	padding-top:50px;}
+.ps ul li {
+	font-size:15px;
+	color:#fff;
+	margin-left:10px;
+	}
+.ps ul li a {
+	font-size:15px;
+	color:#fff;
+	}
+	
+
+/* Media Query ，也就是當寬度 < 736 px 時將載入下面這段 CSS */
+ @media only screen and (max-width: 736px) {
+	 
+html,body { margin:0; padding:0;  background-image:none;}
+
+/*天*/
+.rwd_header { width:100%; height:40px; line-height:40px; margin:0 auto; position:relative; top:0; left:auto; margin-left:0px; background-color:#590000;}
+.rwd_header span { display:block; width:50%; float:left; margin-top:0px; padding:0; line-height:40px;} 
+.rwd_header span a.treemall_logo { display:block; margin-left:0px; width:154px; height:40px; background-image:url(../images/treemall_LOGO.png); background-size:cover; background-position:center; float:left;}
+.rwd_header span a.menu_ICON {display:none;}
+.rwd_header span a.treemall_logo:hover {filter:alpha(opacity=70); opacity: 0.7;}
+
+.rwd_header span a.treemall_fb { display:block; width:40px; height:40px; background-image:url(../images/FB_ICON.png); background-size:cover; background-position:center; float:right;}
+.rwd_header span a.treemall_fb:hover {filter:alpha(opacity=70); opacity: 0.7;}
+
+.rwd_header span a.treemall_line { display:block; width:40px; height:40px; background-image:url(../images/LINE_ICON.png); background-size:cover; background-position:center; float:right;}
+.rwd_header span a.treemall_line:hover {filter:alpha(opacity=70); opacity: 0.7;}
+
+.rwd_header span a.treemall_home { display:block; width:40px; height:40px; background-image:url(../images/home_ICON_m.png); background-size:cover; background-position:right; float:right;}
+.rwd_header span a.treemall_home:hover {filter:alpha(opacity=70); opacity: 0.7;}
+
+
+/*版頭*/
+
+.main_ALL { width:100%; clear:both;}
+#main_top{
+ width:100%; height:auto; margin:0 auto;  background-size:cover; background-position:center top; background-repeat:no-repeat; clear:both;	margin-bottom:0px; }
+.top1 {  width:100%; height:auto; margin:0 auto; position:static; clear:both;}
+.light {
+	display:none;
+}
+.w1 {  width:100%; height:auto; margin:0 auto; padding-bottom:75.14%;  background-image:url(../images/main_191223m_01.png); background-size:cover; background-position:center top; background-repeat:no-repeat; clear:both;position:static;	animation: w1Updown 1s infinite alternate;
+	-webkit-animation: w1Updown 1s infinite alternate;}
+	
+@keyframes w1Updown {
+	dis
+            from {
+                margin-top: 0px;
+            }
+            to {
+                margin-top: 0px;
+            }
+        }     
+ @-webkit-keyframes w1Updown {
+            from {
+                margin-top: 0px;
+            }
+            to {
+                margin-top: 0px;
+            }
+        }  
+
+.prod1 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	-moz-background-size: cover;
+	background-size: cover;
+	position:static;
+	clear:both; 
+	}
+.prod1 a {
+	background-image: url(../images/main_191223m_02.png);
+	display: block;
+	width: 100%;
+	padding-bottom: 67.93%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	-moz-background-size: cover;
+	background-size: cover;
+	position:static;
+	clear:both; 
+	}
+.prod1 a:hover {    transform: translate(0px,0px);}
+.prod2 {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	-moz-background-size: cover;
+	background-size: cover;
+	position:static;
+	clear:both; 
+	}
+.prod2 a {
+	background-image: url(../images/main_191223m_03.png);
+	display: block;
+	width: 100%;
+	padding-bottom: 63.59%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	-moz-background-size: cover;
+	background-size: cover;
+	position:static;
+	clear:both; 
+	}
+.prod2 a:hover {    transform: translate(0px,0px);}
+
+/*行銷*/ 
+.gift_inf{ width:100%; height:auto;	margin:0 auto; clear:both; }
+
+.gift_inf ul{
+	width:100%;
+	height:auto;
+	list-style-type: none;
+	}
+.gift_inf ul li{
+	float:left;
+	width:100%;
+	margin-top:0px;
+	margin-left:0px;
+	}
+.gift_inf ul li a{
+	display:block;
+	width:100%;
+	height:100%;
+	}
+
+ .gift_inf ul li:nth-child(1) {
+	width:100%;
+    height:0; 
+    padding-bottom:31.11%;
+    background-image:url(../images/main_191223m_04.png);
+    background-position:center center; background-size:cover;
+ }
+
+/*選單*/ 
+.menu_inf{ width:100%; height:auto;	margin:0 auto; clear:both; }
+
+.menu_inf ul{
+	width:100%;
+	height:auto;
+	list-style-type: none;
+	margin-top:15px;
+	margin-left:0px;
+	margin-right:0px;
+	}
+.menu_inf ul li{
+	float:left;
+	width:22%;
+	margin-top:5%;
+	margin-left:2%;
+	margin-right:0px;
+	margin-bottom:5%;
+	}
+.menu_inf ul li a{
+	display:block;
+	width:100%;
+	height:100%;
+	}
+.menu_inf ul li:nth-child(1) a {
+	width:100%;
+    height:0; 
+	margin-top:0px;
+    padding-bottom:100.00%;
+    background-image:url(../images/menu_1.png);
+    background-position:center center; background-size:cover;
+ }
+.menu_inf ul li:nth-child(1) a:hover {
+		transform: none;}
+.menu_inf ul li:nth-child(2) a {
+	width:100%;
+    height:0; 
+	margin-top:0px;
+    padding-bottom:100.00%;
+    background-image:url(../images/menu_2m.png);
+    background-position:center center; background-size:cover;
+ }
+.menu_inf ul li:nth-child(2) a:hover {
+		transform: none;}
+.menu_inf ul li:nth-child(3) a {
+	height:0;
+	width:100%;
+	margin-top:0px;
+    padding-bottom:100.00%;
+	background-image:url(../images/menu_3m.png);
+	background-position:center center; background-size:cover;
+ }
+.menu_inf ul li:nth-child(3) a:hover {
+		transform: none;}
+.menu_inf ul li:nth-child(4) a {
+	height:0;
+	width:100%;
+	margin-top:0px;
+    padding-bottom:100.00%;
+	background-image:url(../images/menu_4m.png);
+	background-position:center center; background-size:cover;
+ }
+.menu_inf ul li:nth-child(4) a:hover {
+		transform: none;}
+
+/*3banner*/ 
+.banner{ width:100%; height:auto;	margin:0 auto; clear:both; background-color:#f9ba9c; margin-top:20px;}
+
+.banner ul{
+	width:100%;
+	list-style-type: none;
+	}
+.banner ul li{
+	float:left;
+	width:100%;
+	}
+.banner ul li a{
+	display:block;
+	width:100%;
+	height:100%;
+	}
+.banner ul li:nth-child(1) a  {
+	width:100%;
+    height:auto; 
+    padding-bottom:41.00%;
+    background-image:url(../images/fb_banner.png);
+    background-position:center center; background-size:cover;
+ }
+ .banner ul li:nth-child(1) a:hover {
+		transform: none;}
+ 
+ .banner ul li:nth-child(2) a  {
+	width:100%;
+    height:auto; 
+    padding-bottom:41.00%;
+    background-image:url(../images/line_banner.png);
+    background-position:center center; background-size:cover;
+ }
+ .banner ul li:nth-child(2) a:hover {
+		transform: none;}
+
+.banner ul li:nth-child(3) a {
+	height:auto;
+	width:100%;
+	padding-bottom:41.00%; 
+	background-image:url(../images/app_banner.png);
+	background-position:center center; background-size:cover;
+ }
+.banner ul li:nth-child(3) a:hover {
+		transform: none;}
+		
+
+
+/*注意事項BN*/
+.ps{ 
+width:100%; height:auto;
+margin:0 auto;
+padding:10px;
+font-size:15px;
+line-height:25px;
+color:#fff;
+}
+.ps span{
+	font-size:25px;
+	font-weight:bold;}
+.ps ul{
+width:98%;
+margin:0 auto;
+font-size:20px;
+	list-style-type: disc;
+	padding-left:10px;}
+.ps ul li {
+	font-size:15px;
+	color:#fff;
+	margin-left:10px;
+	}
+}
